@@ -1,0 +1,79 @@
+body {  
+    margin: 0;  
+    font-family: helvetica;
+}
+
+nav {  
+    height: 80px;  
+    display: flex;  
+    align-items: center;  
+    border-bottom: 1px solid rgb(198, 198, 198);  
+    padding: 0 20%;  
+}
+
+a {  
+    display: flex;  
+    align-self: center;  
+    width: auto;  
+    font-size: 30px;  
+}
+
+.hidden { 
+    display: none; 
+}
+
+#posts {  
+    display: flex;  
+    justify-content: center;  
+}
+
+#postsBox {  
+    width: 40%;  
+}
+
+.post {  
+    font-size: 30px;  
+    border: 1px solid black;  
+    padding: 50px;  
+    margin: 30px 0;  
+}
+
+.img {  
+    width: 100%;  
+}
+
+.profBox {  
+    display: flex;  
+    align-items: center;  
+}
+
+.prof {  
+    width: 50px;  
+    height: 50px;  
+    border-radius: 100%;  
+    margin-right: 20px;  
+}
+
+.likes {  
+    display: flex;  
+    align-items: center;  
+}
+
+.like {  
+    margin-right: 10px;  
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galochka {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
