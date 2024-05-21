@@ -24,13 +24,7 @@ for (let i = 0; i < 100; i++) {
     korobkaPostov.appendChild(newPost); 
 } 
 
-function like(index) { 
-    let post = korobkaPostov.children[index + 1]; // index + 1 because firstPost is 0
-    let numberOfLikes = post.getElementsByClassName("numberOfLikes")[0]; 
-    let currentLikes = parseInt(numberOfLikes.innerHTML); 
-    numberOfLikes.innerHTML = currentLikes + 1;
-
-    let img = post.getElementsByClassName("like")[0]; 
-    img.src = img.src.includes('noheart.png') ? 'heart.png' : 'noheart.png';
+function like(){ 
+    
 } 
 
